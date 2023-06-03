@@ -18,5 +18,5 @@
 5. Bash и Git
 6. Медиазапросы
 
-[Ссылка для прехода к проекту:] (file:///C:/Users/User/dev/russian-travel/index.html)
+[Ссылка для прехода к проекту:] (https://github.com/MurMonster/russian-travel/deployments/activity_log?environment=github-pages)
   
