@@ -1,0 +1,25 @@
+.lead__title {
+    width: 720px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    font-family: 'Inter';
+    margin: 0 auto;
+    line-height: 1.04;
+
+}
+@media (max-width: 768px) {
+    .lead__title{
+        width: 93.75%;
+        /*посчитала через пропорцию % соотношение изменения текста, получилось 13.3%, но этого было много, методом проб и ошибок оставила 12*/
+        font-size: 12vw;
+    }
+}
+@media (max-width: 320px) {
+    .lead__title{
+        width: 90%;
+        font-size: 40px;
+        line-height: 1.10;
+    }
+}

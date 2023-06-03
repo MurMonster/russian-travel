@@ -1,0 +1,34 @@
+.places{
+    /*padding: 102px 0 0;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: minmax(min-content, max-content);
+    gap: 70px;*/
+    display:grid;
+    row-gap: 80px;
+    max-width: 984px;
+    margin: 102px auto 0;
+}
+@media screen and (max-width: 1024px){
+    /*1024-100%, значит, по пропорции, 928px-90,6%*/
+    .places{
+        max-width: 90.63%;
+        margin: 92px auto 0;
+    }
+}
+@media screen and (max-width: 768px){
+    .places{
+        /*ширина 720 по брифу.768-100%, значит, по пропорции, 720px-93,75%*/
+        max-width: 93.75%;
+        row-gap: 73px;
+        margin: 88px auto 0;
+    }
+}
+@media screen and (max-width: 412px){
+    .places{
+        /*ширина по брифу 320px*/
+        width: 100%;
+        padding: 64px 0 0;
+        gap: 50px;
+    }
+}

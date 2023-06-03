@@ -1,0 +1,7 @@
+.header__link_chosen{
+    text-decoration: underline;
+}
+.header__link_chosen:hover{
+    opacity: 0.5;
+    text-decoration: underline;
+};
