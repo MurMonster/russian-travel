@@ -1,22 +1,26 @@
 .header__link{
     color: #ffffff;
-    width: 30px;
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
-    line-height: 1.17;
-    text-align: right;
+    line-height: 28px;
+    /*text-align: right;*/
     text-decoration-line: none;
     opacity: 1;
-    padding-left: 18px;
 }
-.header__link:hover{
-    opacity: 0.5;
-    text-decoration: underline;
-};
+
 @media (max-width: 320px) {
     .header__link {
-        width: 22px;
+        font-size: 5.625vw;
+        line-height: 1.111;
     }
 }
+
+.header__link:last-of-type {
+    margin-left: 18px;
+}
+
+.header__link:hover{
+    opacity: 0.8;
+    text-decoration: underline;
+};

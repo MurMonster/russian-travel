@@ -4,16 +4,23 @@
     font-style: normal;
     font-weight: 900;
     font-size: 96px;
-    font-family: 'Inter';
     margin: 0 auto;
-    line-height: 1.04;
+    line-height: 1.0417;
 
 }
+
+@media (max-width: 1024px) {
+    .lead__title{
+        width: 77.5862%;
+        font-size: 9.375vw;
+    }
+}
+
 @media (max-width: 768px) {
     .lead__title{
         width: 93.75%;
         /*посчитала через пропорцию % соотношение изменения текста, получилось 13.3%, но этого было много, методом проб и ошибок оставила 12*/
-        font-size: 12vw;
+        font-size: 12.5vw;
     }
 }
 @media (max-width: 320px) {

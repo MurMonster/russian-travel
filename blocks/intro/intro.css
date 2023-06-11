@@ -1,19 +1,24 @@
 .intro{
     max-width: 984px;
-    padding: 92px 0 0;
-    margin: 0 auto;
+    margin: 92px auto 0;
+}
+
+@media (max-width: 1024px) {
+    .intro {
+        max-width: 90.625%;
+    }
 }
 
 @media (max-width: 768px) {
     .intro {
         max-width: 93.75%;
-        padding: 88px 0 0;
+        margin-top: 88px;
     }
 }
 
 @media (max-width: 320px) {
     .intro {
-        padding: 64px 0 0;
-        max-width: 80%;
+        max-width: 90%;
+        margin-top:64px;
     }
 }

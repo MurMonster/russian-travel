@@ -1,9 +1,10 @@
 .place__link-name{
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 1.0;
     letter-spacing: 2px;
     margin: 0 0 12px 0;
+    text-transform: uppercase;
+    color:#AAAAAA;
 }

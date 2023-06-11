@@ -2,21 +2,34 @@
     opacity: 1;
     color: #fff;
     text-decoration: none;
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.12;
-    padding-right: 18px;
+    line-height: 18px;
+    margin-right: 18px;
     display: block;
 }
+
+.footer__link:last-of-type {
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
 .footer__link:hover {
-    opacity: 0.5;
+    opacity: 0.8;
 }
 @media (max-width: 768px) {
     .footer__link {
-        font-size: 24px;
-        line-height: 1.0;
-        padding-bottom: 32px;
+        font-size: 2.083vw;
+        line-height: 1.125;
+    }
+}
+
+@media (max-width: 320px) {
+    .footer__link {
+        font-size: 7.5vw;
+        line-height: 1;
+        margin-right: 0;
+        margin-bottom: 32px;
     }
 }

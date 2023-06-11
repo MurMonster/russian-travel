@@ -1,12 +1,22 @@
 .intro__list{
-    width: 690px;
-    font-family: 'Inter';
+    max-width: 690px;
     font-style: normal;
     /*опечатка в фигме. в верхнем окне - 400, в нижнем - 700. сделала по верхнему, так как если делать 700, с макетом не сходится.*/
     font-weight: 400;
     font-size: 12px;
     line-height: 1.5;
-    margin: 0;
-    padding: 33px 0 0;
+    margin: 33px 0 0;
     list-style: none;
+    padding-left: 0;
+}
+
+@media (max-width: 768px) {
+    .intro__list {
+        max-width: 100%;
+    }
+}
+@media (max-width: 768px) {
+    .intro__list {
+        margin-top: 34px;
+    }
 }
