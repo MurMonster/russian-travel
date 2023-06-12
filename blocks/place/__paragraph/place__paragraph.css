@@ -3,10 +3,10 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 1.611;
-    /*width: 484px;*/
     margin: 0 0 26px 0;
     grid-column: 2;
     grid-row: 2;
+    transition: font-size 15s ease-in-out;
     }
     
     .place__paragraph:last-of-type {
@@ -21,7 +21,7 @@
     
     @media (max-width: 768px) {
         .place__paragraph {
-            font-size: 2.0833vw;
+            font-size: 2.0833vw; 
             margin-bottom: 25px;
             line-height: 1.625;
         }

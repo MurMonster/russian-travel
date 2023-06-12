@@ -19,6 +19,6 @@
 6. Медиазапросы
  
 
-[Ссылка для прехода к проекту:] (https://github.com/MurMonster/russian-travel/deployments/activity_log?environment=github-pages)
+[Ссылка для прехода к проекту](https://murmonster.github.io/russian-travel/)
   
 

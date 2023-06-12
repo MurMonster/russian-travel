@@ -6,15 +6,15 @@
     margin: 0;
 }
 
-@media (max-width: 1248px) {
+@media (max-width: 1024px) {
     .place__title {
-        font-size: 5.7vw;
+        font-size: 7.03125vw;
     }
 }
 
 @media (max-width: 768px) {
     .place__title {
-        font-size: 5.833vw;
+        font-size: 5.46875vw;
         line-height: 1.095;
     }
 }
